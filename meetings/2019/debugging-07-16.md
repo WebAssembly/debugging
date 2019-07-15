@@ -1,5 +1,3 @@
-![WebAssembly logo](/images/WebAssembly.png)
-
 ## Agenda for the July 16 video call of WebAssembly's debugging subgroup
 
 - **Where**: zoom.us
