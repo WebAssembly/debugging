@@ -37,21 +37,25 @@ Installation is required, see the calendar invite.
 * [YD] Yury Delendik
 * [RL] Ryan Levick
 
+
 Current state web assembly debugging: Not great.
-  FF devtools can show the disassembled code, set breakpoints, step
-  Can show variables
-  Has sourcemap support, but this is only line table support.
-  Not full featured debugging info from this
-  Parses dwarf directly (pilot)
+  * FF devtools can show the disassembled code, set breakpoints, step.
+  * Can show variables
+  * Has sourcemap support, but this is only line table support.
+  * Not full featured debugging info from this
+  * Parses dwarf directly (pilot)
 
 Chrome has similar support.
 We would like to do better.
 
-LLVM ecosystem
-Outputs dwarf (thanks yury)
+LLVM ecosystem Outputs dwarf (thanks yury)
+
 [YD] Making tweaks to dwarf (a webassembly flavored dwarf)
+
 [YD] We are lucky that dwarf already emits line information
+
 [YD] Allow encoding local and global variables
+
 [YD] We can generate wasm binaries with dwarf sections with special information
 
 [YD] There is a patch to encode wasm local in expression
