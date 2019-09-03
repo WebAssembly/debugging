@@ -16,5 +16,6 @@ Meetings of the debugging Subgroup of the W3C WebAssembly Community Group (CG) f
 
 ### 2019
 
- * [WASI July 16nd video call](meetings/2019/debugging-07-16.md)
+ * [Debugging July 16nd video call](meetings/2019/debugging-07-16.md)
+ * [Debugging September 5 video call](meetings/2019/debugging-09-05.md)
  
