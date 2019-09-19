@@ -21,6 +21,7 @@ Installation is required, see the calendar invite.
 ## Agenda items
 
 1. Opening
+1. [Debugging Modules Pull Request](https://github.com/WebAssembly/debugging/pull/6)
 
 
 ## Meeting Notes
