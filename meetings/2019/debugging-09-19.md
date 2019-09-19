@@ -1,4 +1,4 @@
-## Agenda for the September 5 video call of WebAssembly's debugging subgroup
+## Agenda for the September 19 video call of WebAssembly's debugging subgroup
 
 - **Where**: zoom.us
 - **When**: September 19, 6pm-7pm UTC (September 5, 11am-12pm Pacific Daylight Time, 8pm-9pm CEST)
