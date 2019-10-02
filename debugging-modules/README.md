@@ -41,6 +41,10 @@ the source-level debugging experience for Wasm code running inside a runtime.
 > just source-level location information, and can incrementally grow the
 > debugging module API surface as time goes on.
 
+Additionally, the same way that WebAssembly itself is embedder agnostic, and
+doesn't require (for example) a Web browser or JavaScript engine, so too should
+debugging functionality be embedder agnostic.
+
 ## Overview
 
 This proposal builds on the following existing or proposed WebAssembly concepts:
