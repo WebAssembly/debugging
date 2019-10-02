@@ -229,7 +229,7 @@ There are a variety of reasons:
   debugging of projects like Blazor, that run interpreted code inside their
   Wasm. Debugging that interpreted code requires dynamic debugging APIs.
 
-### Why not a protocol?
+### Why not a protocol instead of Wasm interface types?
 
 A wire protocol requires defining the same set of operations we want to support
 that we define as interface methods in this proposal, and *also* a serialization
@@ -240,6 +240,21 @@ that is often a good architectural decision. Implementations are free to proxy
 this proposal's interface method calls across a protocol or to another
 process. It doesn't make sense to bake a specific wire protocol into the
 standard, when it can be left as an implementation detail.
+
+One might might be tempted to use a protocol to avoid an inter-standards
+dependency on Wasm interface types. A protocol requires passing the serialized
+data into and out of the debugging module. Passing that data in or out requires
+knowledge of calling conventions and memory ownership (who mallocs and who
+frees). This is a problem that Wasm interface types are already standardizing a
+solution for, and which engines already intend to support. Duplicating standards
+work done by another subgroup is far from ideal: it leads to more implementation
+work for both toolchains and engines.
+
+The final thing to consider is the code size impact that using a protocol
+implies. Incoming messages must be deserialized and outgoing messages must be
+serialized, and both those things require non-trivial amounts of code. On the
+other hand, with Wasm interface types most of the functionality is implemented
+once in the Wasm engine, and doesn't bloat every module's code size.
 
 ### Can debugging modules run outside of the debuggee process?
 
