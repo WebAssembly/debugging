@@ -1,7 +1,7 @@
 # Meeting notes for the April 30 video call of WebAssembly's debugging subgroup
 
 - **Where**: zoom.us
-- **When**: January 9, 11am-11:10 Pacific Standard Time (April 30, 6pm UTC, 8pm CET)
+- **When**: April 30, 11am-11:10 Pacific Standard Time (April 30, 6pm UTC, 8pm CET)
 - **Location**: *link on calendar invite*
 - **Contact**:
     - Name: Derek Schuff
