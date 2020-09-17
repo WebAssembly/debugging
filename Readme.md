@@ -12,11 +12,11 @@ debugging topics.
 
 # Debugging Subgroup meetings
 
-Meetings of the debugging Subgroup of the W3C WebAssembly Community Group (CG) follow
+Meetings of the debugging Subgroup follow
 [the process of the CG](https://github.com/WebAssembly/meetings). If you wish to
 attend, please join the W3C WebAssembly
 [community group](https://www.w3.org/community/webassembly/) and contact
-[Derek Schuff](dschuff@google.com) to be added to the meeting's calendar
+Derek Schuff (dschuff@google.com) to be added to the meeting's calendar
 invitation and receive the video call information.
 
 The minutes of the meetings were previously recorded in this repository, but
